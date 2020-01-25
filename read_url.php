@@ -149,9 +149,9 @@ echo "Keywords: $keywords";
 /**/
 
 
-// $tags = get_meta_tags('http://www.stackoverflow.com/');
-// echo "<pre>";
-// print_r($tags);
+$tags = get_meta_tags('http://www.stackoverflow.com/');
+echo "<pre>";
+print_r($tags);
 ?>
 <form method="post">
 	<input type="text" name="url">
@@ -175,3 +175,8 @@ $ch = curl_init();
   curl_close($ch);
 print_r($data);
 */
+?>
+<form method="post">
+  <input type="text" name="url">
+  <input type="submit" name="submit">
+</form>
