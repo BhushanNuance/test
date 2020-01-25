@@ -175,3 +175,7 @@ $ch = curl_init();
   curl_close($ch);
 print_r($data);
 */
+<form Surbhi method="post">
+	<input type="text" name="url">
+	<input type="submit" name="submit">
+</form>

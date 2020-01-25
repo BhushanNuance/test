@@ -13,6 +13,7 @@ $fileName = 'medication-instructions3.csv';
 // echo '<pre>';print_r($lines);// exit;
 
 // if(($fh = fopen($fileName, 'r')) !== false ) {
+	
 		
 //        $headers = fread($fh, 0xA00);
 //        $n1 = ( ord($headers[0x21C]) - 1 );
